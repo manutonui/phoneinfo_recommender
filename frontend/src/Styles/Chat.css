@@ -1,0 +1,51 @@
+/* CHAT PAGE */
+.chatwindow {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 90%;
+    align-self: center;
+}
+
+.chatmsgs {
+    flex: 1;
+    background-color: white;
+    border: 3px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.chatmsgs .msg {
+    display: inline-block;
+    margin: 5px; padding: 0px 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid #888;
+    align-self: flex-start;
+}
+
+.chatmsgs .msg.you{
+    background-color: white;
+    align-self: end;
+}
+
+.msgbox { margin-top: 10px; }
+.msgbox input,
+.msgbox button {
+    border-radius: 0;
+}
+
+
+
+/* Chat items */
+.one-smartphone {
+    font-size: 12px;
+    /* border: 1px solid yellow; */
+    margin: 8px;
+    padding: 8px;
+    display: block;
+    background-color: aliceblue;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px navy;
+}
